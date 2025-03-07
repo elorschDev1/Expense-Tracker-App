@@ -1,0 +1,28 @@
+*{
+  box-sizing:border-box;
+}
+.app{
+  margin:0;
+  width:100vw;
+  height:100vh;
+  padding:25%;
+  margin:12%;
+}
+body,html{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+.minus{
+  border-right: 1px;
+  border-color:red;
+}
+.delete-btn{
+  background-color: rgb(249,10,10);
+  color:white;
+  padding:10px;
+  border-radius:12px;
+}
+ul{
+  list-style-type: none;
+}
