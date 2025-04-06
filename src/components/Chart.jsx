@@ -4,6 +4,11 @@ import {BarChart,Bar,XAxis,YAxis,Cell,Tooltip} from 'recharts';
 import { GlobalContext } from '../context/GlobalState';
 const Chart = () => {
     const {transactions}=useContext(GlobalContext);
+   const userTransactions=[...transactions];
+   console.log(userTransactions);
+   
+  
+    
   return (
     <div>
       {/*The BarChart component is my main chart container*/}

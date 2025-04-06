@@ -20,9 +20,16 @@ body,html{
 .delete-btn{
   background-color: rgb(249,10,10);
   color:white;
-  padding:10px;
-  border-radius:12px;
+  padding:5px;
+  border-radius:5px;
+}
+.edit-btn{
+  padding:5px;
+  border-radius:5px;
 }
 ul{
   list-style-type: none;
+}
+#report{
+  border-radius: 10px;
 }
