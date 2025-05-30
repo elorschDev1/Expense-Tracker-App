@@ -4,6 +4,7 @@ import EditTransacionContext from '../context/EditTransactionContext';
 import { GlobalContext } from '../context/GlobalState';
 import '/src/index.css';
 const EditTransaction = () => {
+    // eslint-disable-next-line no-unused-vars
     let {userText,userAmount,setUserText,setUserAmount,submitButtonClicked,setSubmitButtonClicked}=useContext(EditTransacionContext);
     const {addTransaction}=useContext(GlobalContext);
     const {transactions}=useContext(GlobalContext);

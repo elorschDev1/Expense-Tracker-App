@@ -6,6 +6,7 @@ const AddTransaction = () => {
     let currentDate=new Date();
      const [transactionDate,setTransactionDate]=useState(currentDate.toDateString());
     const {addTransaction}=useContext(GlobalContext);
+    // eslint-disable-next-line no-unused-vars
     const {transactions}=useContext(GlobalContext);
     const handleSubmit=e=>{
       e.preventDefault();

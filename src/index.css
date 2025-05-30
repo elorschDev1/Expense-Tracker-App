@@ -29,6 +29,14 @@ body,html{
 }
 ul{
   list-style-type: none;
+  padding:15px;
+}
+li{
+  padding: 7px;
+  margin:3px
+}
+ul button{
+  margin-left:8px;
 }
 #report{
   border-radius: 10px;
