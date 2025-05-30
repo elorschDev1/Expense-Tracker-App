@@ -6,12 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-index.html
 eslint.config.js
-package-lock.json
-package.json
 README.md  
-vite.config.js
 vite.svg
 node_modules
 dist
